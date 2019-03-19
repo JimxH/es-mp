@@ -1,0 +1,141 @@
+/*默认主题1*/
+.login-box{
+	width:100%;
+	height:100%;
+	position:fixed;
+	left:0;
+	top:0;
+  margin: 0;
+  border-radius: 0;
+  transition:  0.3s;
+  -moz-transition:  0.3s;
+  -webkit-transition:  0.3s;
+  -o-transition:  0.3s;
+
+}
+.login-msg{
+	margin: 15% auto;
+  margin-bottom: 10%;
+	width: 500px;
+	color: #eee;
+}
+.login-msg>h2{
+	font-size: 26px;
+	margin: 0 auto 40px;
+	text-align: center;
+	font-weight: 700;
+}
+input::-webkit-input-placeholder{
+	color: #eee;
+}
+.log-name>input,.log-psw>input,.log-check>input{
+	width: 280px;
+	background: #283443;
+	-webkit-appearance: none;
+	padding: 6px 50px;
+	caret-color: #fff;
+	font-size: 14px;
+	line-height: 30px;
+	margin: 10px 0 15px 58px;
+	border: 1px solid #555;
+	border-radius: 4px;
+	color: #eee;
+  transition:  none;
+  -moz-transition:  none;
+  -webkit-transition: none;
+  -o-transition:  none;
+}
+.log-check>input{
+  width: 110px;
+}
+.check-img{
+  width: 150px;
+  height: 40px;
+  float: right;
+  margin: 10px 61px 0 0;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #283443;
+  color: #eee;
+}
+#app .login-msg input:focus{
+	outline: 1px solid #666;
+}
+.log-btn{
+	width: 382px;
+	margin: 10px 0 15px 58px;
+	padding: 6px 50px;
+}
+.log-name,.log-psw,.log-check{
+	position: relative;
+}
+.log-name>span,.log-psw>span,.log-check>span{
+	position: absolute;
+	padding: 13px 14px;
+	background: red;
+	top: 19px;
+	left: 69px;
+}
+.log-name>span{
+	background:url("../assets/images/icon/login-icon.png") no-repeat 5px 2px ;
+}.log-psw>span{
+	background:url("../assets/images/icon/login-icon.png") no-repeat -27px 2px ;
+}.log-check>span{
+	background:url("../assets/images/icon/check-icon.png") no-repeat 4px 2px ;
+}
+.log-img{
+	float: right;
+	margin:40px ;
+}
+.log-foot{
+	text-align: center;
+	color: #fffeee;
+}
+
+
+/*主题2*/
+.sea .log-name>input,.sea .log-psw>input,.sea .log-check>input{
+  background: #eee;
+  border: 1px solid #eee;
+  color: #666;
+  caret-color: #666;/*focus颜色*/
+}
+#app .sea .login-msg input:focus{
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(256,256,256,0.3);
+}
+.sea input::-webkit-input-placeholder{
+  color: #666;
+}
+.sea .check-img{
+	background: #eee;
+	color: #666;
+}
+/*主题3*/
+.garden .log-name>input,.garden .log-psw>input,.garden .log-check>input{
+  background: #eee;
+  border: 1px solid #eee;
+  color: #666;
+  caret-color: #666;/*focus颜色*/
+}
+#app .garden .login-msg input:focus{
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(256,256,256,0.3);
+}
+.garden input::-webkit-input-placeholder{
+  color: #666;
+}
+.garden .check-img{
+	background: #eee;
+	color: #666;
+}
+
+.garden .log-btn{
+  background: #e826e2;
+}
+.garden .log-btn:hover{
+  background: #d48fe0;
+}
+.garden .log-foot a{
+  color: #e826e2;
+}
